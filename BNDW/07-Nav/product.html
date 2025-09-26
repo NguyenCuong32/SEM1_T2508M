@@ -1,47 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: small;
+        }
+
+        button {
+            margin-right: 8px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <header>
     <div>
         <nav class="navbar navbar-expand-sm bg-light m-2">
-           <button
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          class="navbar-toggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse m-2" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="./product.html">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="./service.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-                <li class="nav-item">
-                    <div class="ms-2 me-auto position-relative">
-                        <a class="nav-link" href="./notification.html">Notifications</a>
-                        <span class="badge bg-danger rounded-bottom-circle position-absolute top-0 end-0">5</span>
-                    </div>
-                    
-                </li>
-            </ul>
-        </div>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse m-2" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./product.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./service.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="ms-2 me-auto position-relative">
+                            <a class="nav-link" href="./notification.html">Notifications</a>
+                            <span class="badge bg-danger rounded-bottom-circle position-absolute top-0 end-0">5</span>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
         </nav>
-        
+
     </div>
 
 </header>
+
 <body>
     <div class="container">
-        <h1>Product page</h1>
+        <div class="row mb-lg-3" style="height: auto;" width="auto">
+            <div class="col me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-1.jpg"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-2.jpg"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-3.webp"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mb-lg-3" style="height: auto;" width="auto">
+            <div class="col me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-1.jpg"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-2.jpg"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-3.webp"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mb-lg-3" style="height: auto;" width="auto">
+            <div class="col me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-1.jpg"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-2.jpg"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col me-1 mb-1">
+                <div class="card m-2" style="height: 100%; width: auto;">
+                    <div class="card-header">
+                        <b>iPhone 17 Pro</b>
+                    </div>
+                    <div class="card-body" style="height: 260px;">
+                        <img class="img-fluid w-160 h-50 rounded-2 shadow" src="./images/iphone-17-pro-3.webp"
+                            alt="iPhone 17 Pro">
+                        <div>
+                            <ul class="list-unstyled mt-2">
+                                <li>
+                                    <b>Giá: </b> 23.000.000 VND
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 1:</b><i> Giảm 1.000.000 VND khi mua online</i>
+                                </li>
+                                <li>
+                                    <b>Ưu đãi 2:</b><i> Tặng thẻ mua hàng 5.00.000 VND</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn w-40"
+                                style="background-color: rgb(24, 133, 78);color: white;">Buy</button>
+                            <button class="btn w-60" style="background-color: #e93333; color: white;">Add to
+                                Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>
