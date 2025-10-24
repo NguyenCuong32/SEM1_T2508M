@@ -1,10 +1,10 @@
 import './Product.css';
-function Product(){
+function Product(props){
     return (
         <div>
-            <h1>iPhone 17 Pro</h1>
-            <p>Price: $1199</p>
-            <p>Description: The latest iPhone with advanced features and improved performance.</p>
+            <h1>{props.name}</h1>
+            <p>Price: {props.price}</p>
+            <p>Description: {props.description}</p>
             <div>
                 <button id ="buyNow">Buy Now</button>
                 <button id = "addToCart">Add to Cart</button>
