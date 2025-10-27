@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name":"iPhone 17",
+        "price":1200,
+        "description":"The latest iPhone model with advanced features."
+    },
+    {
+        "id":2,
+        "name":"Samsung Galaxy S23",
+        "price":1100,
+        "description":"A high-end Android smartphone with a sleek design."
+    },
+    {
+        "id":3,
+        "name":"Google Pixel 7",
+        "price":900,
+        "description":"Google's flagship phone with excellent camera capabilities."
+    },
+    {
+        "id":4,
+        "name":"OnePlus 11",
+        "price":800,
+        "description":"A powerful smartphone with fast performance and charging."
+    },
+    {
+        "id":5,
+        "name":"Sony Xperia 1 IV",
+        "price":1300,
+        "description":"A premium smartphone with a focus on multimedia and photography."
+    },{
+        "id":6,
+        "name":"iPhone 17 Pro max",
+        "price":1500,
+        "description":"The latest iPhone model with advanced features."
+    }
+]
