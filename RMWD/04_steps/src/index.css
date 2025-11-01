@@ -1,0 +1,51 @@
+.steps {
+  width: 600px;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+  padding: 25px 100px;
+  margin: 100px auto;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.numbers div {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(38, 10, 38, 0.467);
+  border-radius: 50%;
+  justify-content: center;
+  color: #f7f7f7;
+  align-items: center;
+}
+.numbers .active {
+  background-color: blueviolet;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+.button button {
+  background-color: rgba(38, 10, 38, 0.467);
+  color: #f7f7f7;
+  display: flex;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  gap: 10px;
+  align-items: center;
+}
+.message {
+  display: flex;
+  justify-content: center;
+}
+.close {
+  position:absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  border: none;
+}

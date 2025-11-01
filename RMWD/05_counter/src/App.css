@@ -1,0 +1,56 @@
+.counter{
+  display: flex;
+  width: 340px;
+  height: 160px;
+  background-color: bisque;
+  justify-content: center;
+  margin: 32px;
+  border-radius: 16px;
+}
+.steps{
+  width: 180px;
+  height: 80px;
+  display: inline;
+  margin: 8px;
+  background-color: azure;
+  border-radius: 8px;
+  align-items: center;
+}
+.steps .btnGroup{
+  margin: 16px;
+}
+.steps .btnGroup span {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.values{
+  width: 180px;
+  height: 80px;
+  display: inline-block;
+  margin: 8px;
+  background-color:beige;
+  justify-content: center;
+  border-radius: 8px;
+}
+.values .btnGroup{
+  margin: 16px;
+}
+.values .btnGroup span {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.changeBackgroudColor{
+  width: 200px;
+  height: 100px;
+  border-radius: 8px;
+  background-color: aquamarine;
+  margin: 32px;
+}
+.changeBackgroudColor #btnChange{
+  align-items: center;
+  background-color: azure;
+  margin-top: 64px;
+  margin-left: 26px;
+  border-radius: 8px;
+}
